@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#fbb6c2"> <!-- ベビーピンク -->
+  <meta name="theme-color" content="#fbb6c2">
   <title>I_am_hikari___のスタオタ(StartEntertaimentオタク)の経歴</title>
   <style>
-    /* ベーススタイル */
     body {
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       line-height: 1.6;
@@ -22,10 +21,9 @@
       padding: 20px;
     }
 
-    /* ヘッダー部分のスタイル */
     header {
-      background-color: #fbb6c2; /* ベビーピンク */
-      color: #FF007F; /* ショッキングピンク */
+      background-color: #fbb6c2;
+      color: #FF007F;
       text-align: center;
       padding: 40px 20px;
     }
@@ -35,7 +33,6 @@
       font-size: 1.8em;
     }
 
-    /* メインコンテンツ部分 */
     main {
       background-color: white;
       margin-top: 20px;
@@ -43,22 +40,33 @@
       border-radius: 5px;
     }
 
-    /* h2タグのスタイル */
     h2 {
-      color: #FF007F; /* ショッキングピンク */
+      color: #FF007F;
       font-size: 1.5em;
-      background-color: #fbb6c2; /* ベビーピンク */
+      background-color: #fbb6c2;
       padding: 10px;
       border-radius: 5px;
     }
 
-    /* 段落部分のスタイル */
-    p {
-      font-size: 1em;
+    .text-image-row {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 20px;
+      gap: 20px;
+    }
+
+    .text-image-row img {
+      max-width: 200px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .text-image-row p {
+      flex: 1;
+      margin: 0;
       line-height: 1.8;
     }
 
-    /* フッター部分 */
     footer {
       text-align: center;
       font-size: 0.9em;
@@ -68,59 +76,63 @@
       border-top: 1px solid #ddd;
     }
 
-    /* モバイル対応 */
     @media (max-width: 600px) {
-      header, main, footer {
-        padding: 15px;
+      .text-image-row {
+        flex-direction: column;
+        align-items: center;
       }
 
-      header h1 {
-        font-size: 1.5em;
-      }
-
-      h2 {
-        font-size: 1.3em;
-      }
-
-      p {
-        font-size: 0.95em;
+      .text-image-row img {
+        max-width: 100%;
       }
     }
   </style>
 </head>
 <body>
-  <!-- ヘッダー -->
   <header>
     <h1>HIKARIの自己紹介</h1>
   </header>
 
-  <!-- メインコンテンツ -->
   <main>
     <h2>HIKARIです。</h2>
-    <p>
-      私のことを自己紹介？してみます！(笑)<br><br>
-      まず、中学1年生の頃(Hey!Say!JUMPがデビューした年)2007年：山田涼介くん担当になりました！<br><br>
-　　　 その後、訳あって、高校2年生の頃にB.I.Shadowにハマりました！<br><br>
-      (初代：高畑岬、中島健人(旧SexyZoneメンバー)、菊池風磨(Timeleszメンバー)/セクゾデビュー直前までのメンバー：中島健人、菊池風磨、高地優吾(SixTONES)、松村北斗(SixTONES))<br><br>
-      その後、SexyZoneにハマり、オタ卒したくない一心で、Mr.SnnowやLoveTuneやMr.kingとMr.Princeにハマりました！<br><br>
-      そして、オタ卒し、「花のち晴れ」でKing&Princeしょうれんにハマり、デビュー5周年のSnowManにハマりました！<br><br>
-      <br><br>
-      SnowManどころかStartEntartaimentにそこまでのめり込んでいない母が<br><br>
-      「「大竹しのぶ」と「有村架純」が出てるから！」という理由で見たドラマ「海のはじまり」で「目黒連(SnowMan)」の演技力に驚き<br><br>
-      私にいろいろと聞いてきたので、宇宙Six時代の話等をオタク時代の記憶を頼りに母に話しているものの見事に「さっくん❤️佐久間大介くん」にハマり、今に至っておりますwww<br><br>
-      <br><br>
-      こんな私ですが、良かったら仲良くしてください！ローマ字入力面倒なので「ひかり」で全然良いですよ！<br><br>
-      年下の方もよかったら、しょっぱなから全然タメ語で絡んで頂いて大丈夫です！⛄<br><br>
-      あっ...大事なことを忘れていました(笑)<br><br>
-      <br><br>
-      菊池風磨くん(Timelesz)と向井康二くん(SnowMan)と京本大我くん(SixSTONES)世代 × 中島裕翔くん月日(08月10日)生まれです！<br><br>
-      <br><br>
-    </p>
+
+    <!-- 1 -->
+    <div class="text-image-row">
+      <p>
+        まず、中学1年生の頃(Hey!Say!JUMPがデビューした年)2007年：山田涼介くん担当になりました！<br><br>
+      </p>
+      <img src="ry1.jpeg" alt="おでかけ写真1">
+    </div>
+
+    <!-- 2 -->
+    <div class="text-image-row">
+      <p>
+        その後、訳あって、高校2年生の頃にB.I.Shadowにハマりました！<br><br>
+        (初代：高畑岬、中島健人(旧SexyZoneメンバー)、菊池風磨(Timeleszメンバー)/セクゾデビュー直前までのメンバー：中島健人、菊池風磨、高地優吾(SixTONES)、松村北斗(SixTONES))<br><br>
+      </p>
+      <img src="kn1.jpeg" alt="おでかけ写真2">
+    </div>
+
+    <!-- 3 -->
+    <div class="text-image-row">
+      <p>
+        その後、SexyZoneにハマり、オタ卒したくない一心で、Mr.SnowやLoveTuneやMr.kingとMr.Princeにハマりました！<br><br>
+      </p>
+      <img src="sh1.jpeg" alt="おでかけ写真3">
+    </div>
+
+    <!-- 4 -->
+    <div class="text-image-row">
+      <p>
+        私にいろいろと聞いてきたので、宇宙Six時代の話等をオタク時代の記憶を頼りに母に話しているものの見事に「さっくん❤️佐久間大介くん」にハマり、今に至っておりますwww<br><br>
+      </p>
+      <img src="da1.jpeg" alt="おでかけ写真4">
+    </div>
+
   </main>
 
-  <!-- フッター -->
   <footer>
-    <small>&copy; 1992 HIKARI All rights reserved.</small>
+    © 2025 HIKARI-HIKARU
   </footer>
 </body>
 </html>
