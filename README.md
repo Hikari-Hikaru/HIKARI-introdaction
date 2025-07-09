@@ -101,7 +101,8 @@
       <p>
         まず、中学1年生の頃(Hey!Say!JUMPがデビューした年)2007年：山田涼介くん担当になりました！<br><br>
       </p>
-      <img src="ry1.jpeg" alt="山田涼介くん">
+     <img src="https://your-site.com/da1.webp" alt="山田涼介くん" style="max-width: 100%; height: auto;">
+
     </div>
 
     <!-- 2 -->
@@ -110,7 +111,7 @@
         その後、訳あって、高校2年生の頃にB.I.Shadowにハマりました！<br><br>
         (初代：高畑岬、中島健人(旧SexyZoneメンバー)、菊池風磨(Timeleszメンバー)/セクゾデビュー直前までのメンバー：中島健人、菊池風磨、高地優吾(SixTONES)、松村北斗(SixTONES))<br><br>
       </p>
-      <img src="kn1.jpeg" alt="中島健人くん">
+      <img src="https://your-site.com/kn1.jpg" alt="中島健人くん" style="max-width: 100%; height: auto;">
     </div>
 
     <!-- 3 -->
@@ -118,7 +119,7 @@
       <p>
         その後、SexyZoneにハマり、オタ卒したくない一心で、Mr.SnowやLoveTuneやMr.kingとMr.Princeにハマりました！<br><br>
       </p>
-      <img src="sh1.jpeg" alt="平野紫耀くん">
+     <img src="https://your-site.com/ry1.jpg" alt="平野紫耀くん" style="max-width: 100%; height: auto;">
     </div>
 
     <!-- 4 -->
@@ -126,7 +127,7 @@
       <p>
         私にいろいろと聞いてきたので、宇宙Six時代の話等をオタク時代の記憶を頼りに母に話しているものの見事に「さっくん❤️佐久間大介くん」にハマり、今に至っておりますwww<br><br>
       </p>
-      <img src="da1.jpeg" alt="佐久間大介くん">
+      <img src="https://your-site.com/sh1.jpg" alt="佐久間大介くん" style="max-width: 100%; height: auto;">
     </div>
 
   </main>
