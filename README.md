@@ -59,6 +59,12 @@
       max-width: 200px;
       border-radius: 5px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .text-image-row img:hover {
+      transform: scale(1.05);
     }
 
     .text-image-row p {
@@ -86,6 +92,32 @@
         max-width: 100%;
       }
     }
+
+    /* モーダルスタイル */
+    #modal {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.8);
+    }
+
+    #modal img {
+      display: block;
+      margin: 5% auto;
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.5);
+    }
+
+    #modal:target {
+      display: block;
+    }
   </style>
 </head>
 <body>
@@ -101,8 +133,7 @@
       <p>
         まず、中学1年生の頃(Hey!Say!JUMPがデビューした年)2007年：山田涼介くん担当になりました！<br><br>
       </p>
-     <img src="https://your-site.com/da1.webp" alt="山田涼介くん" style="max-width: 100%; height: auto;">
-
+      <img src="https://raw.githubusercontent.com/Hikari-Hikaru/HIKARI-introdaction/main/ry1.jpg" alt="おでかけ写真1" onclick="openModal(this.src)">
     </div>
 
     <!-- 2 -->
@@ -111,7 +142,7 @@
         その後、訳あって、高校2年生の頃にB.I.Shadowにハマりました！<br><br>
         (初代：高畑岬、中島健人(旧SexyZoneメンバー)、菊池風磨(Timeleszメンバー)/セクゾデビュー直前までのメンバー：中島健人、菊池風磨、高地優吾(SixTONES)、松村北斗(SixTONES))<br><br>
       </p>
-      <img src="https://your-site.com/kn1.jpg" alt="中島健人くん" style="max-width: 100%; height: auto;">
+      <img src="https://raw.githubusercontent.com/Hikari-Hikaru/HIKARI-introdaction/main/kn1.jpg" alt="おでかけ写真2" onclick="openModal(this.src)">
     </div>
 
     <!-- 3 -->
@@ -119,15 +150,15 @@
       <p>
         その後、SexyZoneにハマり、オタ卒したくない一心で、Mr.SnowやLoveTuneやMr.kingとMr.Princeにハマりました！<br><br>
       </p>
-     <img src="https://your-site.com/ry1.jpg" alt="平野紫耀くん" style="max-width: 100%; height: auto;">
+      <img src="https://raw.githubusercontent.com/Hikari-Hikaru/HIKARI-introdaction/main/sh1.jpg" alt="おでかけ写真3" onclick="openModal(this.src)">
     </div>
 
     <!-- 4 -->
     <div class="text-image-row">
       <p>
-        私にいろいろと聞いてきたので、宇宙Six時代の話等をオタク時代の記憶を頼りに母に話しているものの見事に「さっくん❤️佐久間大介くん」にハマり、今に至っておりますwww<br><br>
+        宇宙Six時代の話等をオタク時代の記憶を頼りに母に話しているものの、見事に「さっくん❤️佐久間大介くん」にハマり、今に至っておりますwww<br><br>
       </p>
-      <img src="https://your-site.com/sh1.jpg" alt="佐久間大介くん" style="max-width: 100%; height: auto;">
+      <img src="https://raw.githubusercontent.com/Hikari-Hikaru/HIKARI-introdaction/main/da1.webp" alt="おでかけ写真4" onclick="openModal(this.src)">
     </div>
 
   </main>
@@ -135,5 +166,21 @@
   <footer>
     © 2025 HIKARI-HIKARU
   </footer>
+
+  <!-- モーダル -->
+  <div id="modal" onclick="closeModal()">
+    <img id="modal-img" src="" alt="拡大画像">
+  </div>
+
+  <script>
+    function openModal(src) {
+      document.getElementById('modal').style.display = 'block';
+      document.getElementById('modal-img').src = src;
+    }
+
+    function closeModal() {
+      document.getElementById('modal').style.display = 'none';
+    }
+  </script>
 </body>
 </html>
