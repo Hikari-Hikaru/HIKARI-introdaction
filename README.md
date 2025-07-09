@@ -157,6 +157,10 @@
     <div class="text-image-row">
       <p>
         宇宙Six時代の話等をオタク時代の記憶を頼りに母に話しているものの、見事に「さっくん❤️佐久間大介くん」にハマり、今に至っておりますwww<br><br>
+        <br><br>
+        こんな私ですが、是非仲良くしてください⛄<br><br>
+        <br><br>
+        菊池風磨くん、京本大我くん、向井康二くん世代 × 中島裕翔くん月日ですが、私よりも年下の方、ぜひタメ語で絡んでください(笑)。
       </p>
       <img src="https://raw.githubusercontent.com/Hikari-Hikaru/HIKARI-introdaction/main/da1.webp" alt="おでかけ写真4" onclick="openModal(this.src)">
     </div>
