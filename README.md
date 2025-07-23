@@ -161,7 +161,7 @@
         <br><br>
         こんな私ですが、是非仲良くしてください⛄<br><br>
         <br><br>
-        菊池風磨くん、京本大我くん、向井康二くん世代 × 中島裕翔くん月日ですが、私よりも年下の方、ぜひタメ語で絡んでください(笑)。
+        菊池風磨くん、京本大我くん、向井康二くん世代 × 中島裕翔くん月日です。私よりも年下の方、ぜひタメ語で絡んでください(笑)。
       </p>
       <img src="https://raw.githubusercontent.com/Hikari-Hikaru/HIKARI-introdaction/main/da1.webp" alt="おでかけ写真4" onclick="openModal(this.src)">
     </div>
