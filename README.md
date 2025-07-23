@@ -149,6 +149,7 @@
     <div class="text-image-row">
       <p>
         その後、SexyZoneにハマり、オタ卒したくない一心で、Mr.SnowやLoveTuneやMr.kingとMr.Princeにハマりました！<br><br>
+      「花のち晴れ」のドラマの頃は「平野紫耀担」でした👑❤️<br><br>
       </p>
       <img src="https://raw.githubusercontent.com/Hikari-Hikaru/HIKARI-introdaction/main/sh1.jpg" alt="おでかけ写真3" onclick="openModal(this.src)">
     </div>
@@ -156,7 +157,7 @@
     <!-- 4 -->
     <div class="text-image-row">
       <p>
-        宇宙Six時代の話等をオタク時代の記憶を頼りに母に話しているものの、見事に「さっくん❤️佐久間大介くん」にハマり、今に至っておりますwww<br><br>
+        宇宙Six時代の話等をオタク時代の記憶を頼りに母に話しているものの、見事に「さっくん🩷佐久間大介くん」にハマり、今に至っておりますwww<br><br>
         <br><br>
         こんな私ですが、是非仲良くしてください⛄<br><br>
         <br><br>
